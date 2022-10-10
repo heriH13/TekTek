@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF634C3928EC30C200E691DE /* TesUpdateViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C3828EC30C200E691DE /* TesUpdateViewApp.swift */; };
+		DF634C3B28EC30C200E691DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C3A28EC30C200E691DE /* ContentView.swift */; };
+		DF634C3D28EC30C300E691DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF634C3C28EC30C300E691DE /* Assets.xcassets */; };
+		DF634C4028EC30C300E691DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF634C3F28EC30C300E691DE /* Preview Assets.xcassets */; };
+		DF634C4228EC30C300E691DE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C4128EC30C300E691DE /* Persistence.swift */; };
+		DF634C4528EC30C300E691DE /* TesUpdateView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF634C4328EC30C300E691DE /* TesUpdateView.xcdatamodeld */; };
+		DF634C4E28EC6C3C00E691DE /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C4D28EC6C3C00E691DE /* Dashboard.swift */; };
+		DF634C5228EC6C7D00E691DE /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C5128EC6C7D00E691DE /* DashboardViewModel.swift */; };
+		DF634C5428EC6E3C00E691DE /* NewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF634C5328EC6E3C00E691DE /* NewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF634C3528EC30C200E691DE /* TesUpdateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesUpdateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF634C3828EC30C200E691DE /* TesUpdateViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesUpdateViewApp.swift; sourceTree = "<group>"; };
+		DF634C3A28EC30C200E691DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF634C3C28EC30C300E691DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF634C3F28EC30C300E691DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF634C4128EC30C300E691DE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DF634C4428EC30C300E691DE /* TesUpdateView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TesUpdateView.xcdatamodel; sourceTree = "<group>"; };
+		DF634C4D28EC6C3C00E691DE /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		DF634C5128EC6C7D00E691DE /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		DF634C5328EC6E3C00E691DE /* NewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF634C3228EC30C200E691DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF634C2C28EC30C200E691DE = {
+			isa = PBXGroup;
+			children = (
+				DF634C3728EC30C200E691DE /* TesUpdateView */,
+				DF634C3628EC30C200E691DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF634C3628EC30C200E691DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF634C3528EC30C200E691DE /* TesUpdateView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF634C3728EC30C200E691DE /* TesUpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				DF634C4B28EC631C00E691DE /* ViewModel */,
+				DF634C4C28EC632800E691DE /* View */,
+				DF634C3828EC30C200E691DE /* TesUpdateViewApp.swift */,
+				DF634C3A28EC30C200E691DE /* ContentView.swift */,
+				DF634C3C28EC30C300E691DE /* Assets.xcassets */,
+				DF634C4128EC30C300E691DE /* Persistence.swift */,
+				DF634C4328EC30C300E691DE /* TesUpdateView.xcdatamodeld */,
+				DF634C3E28EC30C300E691DE /* Preview Content */,
+			);
+			path = TesUpdateView;
+			sourceTree = "<group>";
+		};
+		DF634C3E28EC30C300E691DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF634C3F28EC30C300E691DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF634C4B28EC631C00E691DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF634C5128EC6C7D00E691DE /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF634C4C28EC632800E691DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF634C4D28EC6C3C00E691DE /* Dashboard.swift */,
+				DF634C5328EC6E3C00E691DE /* NewData.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF634C3428EC30C200E691DE /* TesUpdateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF634C4828EC30C300E691DE /* Build configuration list for PBXNativeTarget "TesUpdateView" */;
+			buildPhases = (
+				DF634C3128EC30C200E691DE /* Sources */,
+				DF634C3228EC30C200E691DE /* Frameworks */,
+				DF634C3328EC30C200E691DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesUpdateView;
+			productName = TesUpdateView;
+			productReference = DF634C3528EC30C200E691DE /* TesUpdateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF634C2D28EC30C200E691DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DF634C3428EC30C200E691DE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DF634C3028EC30C200E691DE /* Build configuration list for PBXProject "TesUpdateView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF634C2C28EC30C200E691DE;
+			productRefGroup = DF634C3628EC30C200E691DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF634C3428EC30C200E691DE /* TesUpdateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF634C3328EC30C200E691DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF634C4028EC30C300E691DE /* Preview Assets.xcassets in Resources */,
+				DF634C3D28EC30C300E691DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF634C3128EC30C200E691DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF634C5428EC6E3C00E691DE /* NewData.swift in Sources */,
+				DF634C4528EC30C300E691DE /* TesUpdateView.xcdatamodeld in Sources */,
+				DF634C4228EC30C300E691DE /* Persistence.swift in Sources */,
+				DF634C4E28EC6C3C00E691DE /* Dashboard.swift in Sources */,
+				DF634C5228EC6C7D00E691DE /* DashboardViewModel.swift in Sources */,
+				DF634C3B28EC30C200E691DE /* ContentView.swift in Sources */,
+				DF634C3928EC30C200E691DE /* TesUpdateViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF634C4628EC30C300E691DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF634C4728EC30C300E691DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF634C4928EC30C300E691DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesUpdateView/Preview Content\"";
+				DEVELOPMENT_TEAM = 843V7URJY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heri.TesUpdateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF634C4A28EC30C300E691DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesUpdateView/Preview Content\"";
+				DEVELOPMENT_TEAM = 843V7URJY9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heri.TesUpdateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF634C3028EC30C200E691DE /* Build configuration list for PBXProject "TesUpdateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF634C4628EC30C300E691DE /* Debug */,
+				DF634C4728EC30C300E691DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF634C4828EC30C300E691DE /* Build configuration list for PBXNativeTarget "TesUpdateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF634C4928EC30C300E691DE /* Debug */,
+				DF634C4A28EC30C300E691DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF634C4328EC30C300E691DE /* TesUpdateView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF634C4428EC30C300E691DE /* TesUpdateView.xcdatamodel */,
+			);
+			currentVersion = DF634C4428EC30C300E691DE /* TesUpdateView.xcdatamodel */;
+			path = TesUpdateView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF634C2D28EC30C200E691DE /* Project object */;
+}
